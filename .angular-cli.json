@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "angular-nodejs-express-sass-seed-project"
+  },
+  "apps": [
+    {
+      "root": "assets",
+      "main": "assets/app/main.ts",
+      "polyfills": "assets/app/polyfills.ts",
+      "tsconfig": "tsconfig.json",
+      "prefix": "app"
+    }
+  ],
+  "defaults": {
+    "styleExt": "scss",
+    "component": {
+    }
+  }
+}
